@@ -16,3 +16,17 @@ if(true <  false)
     print("thanks")
 }
 */
+var s:String="hello"
+var str=String()
+str="hello world"
+var p:String
+p="callme"
+print(s)
+print(str)
+print(p)
+print(s.count)
+print(str.hasPrefix("hello"))
+print(str.hasSuffix("world"))
+print(str.uppercased())
+print(str.lowercased())
+
