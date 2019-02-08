@@ -9,4 +9,10 @@
 import Foundation
 
 print("Hello, World!")
-
+var a:Int=60
+/*
+if(true <  false)
+{
+    print("thanks")
+}
+*/
