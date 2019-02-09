@@ -148,3 +148,7 @@ for k in country.keys
 {
     print(k)
 }
+d = [:]
+print(d.count)
+country.removeValue(forKey:"IND")
+print(country)
