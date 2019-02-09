@@ -29,4 +29,30 @@ print(str.hasPrefix("hello"))
 print(str.hasSuffix("world"))
 print(str.uppercased())
 print(str.lowercased())
-
+for c in str
+{
+    print(c)
+}
+var x = 5...10
+for i in x
+{
+        print(i)
+}
+print(x)
+//closed range         e.g 5...10
+//partialrangethrough  e.g ...50
+//partial rangefrom    e.g 5...
+var y = 5...
+for i in y
+{
+    print(i)
+ if(i == 20)
+ {
+    break
+    }
+}
+var q = ...50
+if(q.contains(-1000))
+{
+    print("TRue")
+}
